@@ -1,6 +1,4 @@
-package nemchinovrp;
-
-import java.util.logging.XMLFormatter;
+package nemchinovrp.linkedlistsinglenode;
 
 class LinkedList {
 
