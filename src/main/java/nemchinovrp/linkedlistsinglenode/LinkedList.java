@@ -39,7 +39,7 @@ class LinkedList {
         else {
             Node nextNode = current.next;
             current.next = null;
-            Node rest = reverse(nextNode);
+            Node rest = recursiveReverse(nextNode);
             nextNode.next = current;
             return rest;
         }

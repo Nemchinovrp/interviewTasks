@@ -21,7 +21,7 @@ public class Queue {
     }
 
     public Integer get() {
-        Integer result = null;
+        Integer result;
         while (!s1.empty()) {
             s2.push(s1.pop());
         }
@@ -31,5 +31,4 @@ public class Queue {
         }
         return result;
     }
-
 }

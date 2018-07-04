@@ -9,7 +9,6 @@ public class ThreadLock implements Runnable {
         this.ob2 = o2;
     }
 
-
     public void run() {
         synchronized (ob1) {
             System.out.println("I am start working first sync block 1 - " + Thread.currentThread().getName());
