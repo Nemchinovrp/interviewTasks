@@ -1,7 +1,6 @@
 package nemchinovrp.listcastinterface;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -11,9 +10,9 @@ public class Main {
         list.add(3);
         list.add(4);
         System.out.println(list.get(1));
-     /*   List<Integer> integers = new LinkedList();
+        List<Integer> integers = new LinkedList();
         integers.add(1);
         integers.add(2);
-        System.out.println(integers.get(-1));*/
+        System.out.println(integers.get(-1));
     }
 }

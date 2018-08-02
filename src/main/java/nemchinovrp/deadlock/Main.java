@@ -1,8 +1,6 @@
 package nemchinovrp.deadlock;
 
 public class Main {
-
-
     public static void main(String[] args) throws InterruptedException {
         Object obj1 = new Object();
         Object obj2 = new Object();
